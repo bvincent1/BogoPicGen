@@ -10,9 +10,10 @@
     <ImageButton
         android:id="@+id/TakeAPhoto"
         android:layout_width="fill_parent"
-        android:layout_height="307dp"
+        android:layout_height="match_parent"
         android:layout_weight="0.75"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitCenter" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
